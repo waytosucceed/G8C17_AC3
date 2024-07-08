@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Activity 3</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link rel="icon" type="image/x-icon" href="Logo_last.png">
+
+
+  <style>
+        
+
+.correct{
+    background-color: rgb(167, 225, 243);
+    border-radius: 50%;
+    width:100px;
+    height: 50px;
+   font-weight: bold;
+   
+}
+
+
+  </style>
+
+
+
+</head>
+
+
+<body>
+  <audio id="cheers" >
+    <source src="cheers.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="points" src="Points.mp3"></audio>
+  <audio id="fail" src="fail.mp3"></audio>
+  <div class="header" style="width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0); padding-bottom:10px;">
+    <img src="Logo.png" width="5%" style="float:left; margin-top:25px;" class="img-responsive">
+    <span> <img src="header.png" width="30%" height="100px" class="img-responsive"></span>
+</div>
+<br>
+<br>
+  <center>
+    
+  <h1 id="heading" style="font-family: Impact">Lets Revise With The Teacher</h1>
+  <div class="maindiv container" style="padding-top: 50px;">
+
+
+   <p style="font-size: 20px;">Q1.  Help! Help! The dog is after me.<br>
+    Identify the interjection and mention its type. 
+    
+
+    <br><br>
+
+    <label id="label1"></label> 
+       <button onclick="func1()" id="btn1" class="correct">Check</button> <br><br>
+
+     Q2.  “Good God'' is an interjectional phrase  used to express…………………………………..
+     
+     <br><br>
+
+
+     <label id="label2"></label>
+    <button onclick="func2()" id="btn2" class="correct">Check</button>
+     <br> <br>
+
+     Q3.  Which interjections are normally other parts of speech like a noun, verb or an adjective behaving  as interjection?
+     
+     <br><br>
+
+
+     <label id="label3"></label>
+    <button onclick="func3()" id="btn3" class="correct">Check</button>
+     <br> <br>
+
+     Q4.  What are the seven major types of interjections we discussed today?
+     
+     <br><br>
+
+
+     <label id="label4"></label>
+    <button onclick="func4()" id="btn4" class="correct">Check</button>
+     <br> <br>
+     
+     Q5.  Can interjections be a singular response or reaction to something or someone’s words?
+     
+     <br><br>
+
+
+     <label id="label5"></label>
+    <button onclick="func5()" id="btn5" class="correct">Check</button>
+     <br> <br>
+
+  </p> 
+</div>
+  <script>
+    
+           function func1(){
+            document.getElementById('label1').innerHTML="Help is a secondary interjection used as a volitive interjection.<br>Secondary interjections are normally other parts of speech like a noun, verb or an adjective which act as interjections.<br>‘Help! Help!’ is a repetition of the verb ‘Help’ and here it is expressing an urgent request. Thus, it is a Volitive interjection. Volitive interjections express urgent requests or commands."
+            document.getElementById('btn1').style.display="none"
+           }
+
+           function func2(){
+            document.getElementById('label2').innerHTML="Surprise, Outrage and Horror<br>Surprise: Good God!She fainted and sank on the sofa.<br>Outrage: Good God! I didn’t expect you to cheat.<br>Horror: Good God! As per the morning news, the serial killer is roaming about in my locality. "
+            document.getElementById('btn2').style.display="none"
+           }
+           function func3(){
+            document.getElementById('label3').innerHTML="Secondary interjections are normally other parts of speech like a noun, verb or an adjective which act as interjections. <br>Examples:<br>Shoot! I missed the last train.<br>Awesome! You really solve the Rubik’s cube at electric speed. <br>Goodness! You were really close to getting the job."
+            document.getElementById('btn3').style.display="none"
+           }
+
+           function func4(){
+            document.getElementById('label4').innerHTML="Primary, Secondary, Strong, Mild, Emotive, Volitive and Cognitive"
+            document.getElementById('btn4').style.display="none"
+           }
+           function func5(){
+            document.getElementById('label5').innerHTML="Yes it is possible.<br>Example:<br> Mother: Your teacher informed me that you are very  mischievous at school these days.<br> Son: Oh no!"
+            document.getElementById('btn5').style.display="none"
+           }
+
+
+
+  </script>
+</center>
+</body>
+</html>
